@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>ECHO 🌌</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="game">
+
+        <h1>🌌 ECHO</h1>
+
+        <p id="score">⭐ Score: 0</p>
+
+        <h2 id="question">A choice appears...</h2>
+
+        <p id="story">
+            You have to make a decision.
+            What will you do?
+        </p>
+
+        <div id="buttons">
+
+            <button onclick="choose(0)">
+                ✨ Choice 1
+            </button>
+
+            <button onclick="choose(1)">
+                🌙 Choice 2
+            </button>
+
+            <button onclick="choose(2)">
+                ⭐ Choice 3
+            </button>
+
+        </div>
+
+        <button onclick="restart()">
+            🔄 Restart
+        </button>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
